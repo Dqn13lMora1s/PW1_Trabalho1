@@ -1,0 +1,7 @@
+p:not(.excluir) {
+    color: gray;
+}
+  
+.excluir {
+    color: black;
+}

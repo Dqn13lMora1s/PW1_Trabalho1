@@ -1,0 +1,42 @@
+<html>
+    <style>
+        body {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;background-color: white; color: black;}
+        nav {text-align: center;}
+        h1 {text-align: center; color: #9C182F;}
+        h2 {text-align: center; color: #EE7623;}
+        h3 {text-align: center;}
+        p {text-align: center;}
+        .right {position: absolute; top: 25; left: 25;}
+        .dark {background-color: #222; color: #e6e6e6; }
+        .center {display: block; margin-left: auto; margin-right: auto; width: 25%;}
+    </style>
+    <head>
+        <title> My top 3 favourite hobbies </title>
+    </head>
+    <body>
+        <nav>
+            <a href="./futebol.html">Futebol</a>
+            <a href="./games.html">Vídeo Jogos</a>
+            <a href="./movies.html">Filmes</a>
+        </nav>
+        <h1>My 3 favourite hobbies</h1>
+        <h2> Introdução </h2>
+        <br>
+        <p>Neste website vou indicar os meus três hobbies favoritos, onde para além disso também vou indicar alguns tópicos com que façam este um dos meus hobbies.</p>
+        <br>
+
+        <div class="right">
+           <button onclick="myFunction()">Switch mode</button>
+        </div>
+
+        <img src="images/IMG_20230108_222741.jpg" alt="eu" class="center">
+        <p>Daniel Morais nº26634</p>
+
+        <script>
+           function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark"); 
+           }
+        </script>
+    </body>
+</html>

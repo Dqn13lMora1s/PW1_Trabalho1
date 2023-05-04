@@ -1,0 +1,79 @@
+<htm>
+    <style>
+        body {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+        h1 {text-align: center; color: #9C182F; font-size: 35;}
+        h2 {text-align: center; font-size: 20; color: #EE7623;}
+        h3 {text-align: center; font-size: 20; color: #EE7623;}
+        h4 {text-align: center; font-size: 20; color: #EE7623;}
+        nav {text-align: center;}
+        p {text-align: center;}
+        .center {display: block; margin-left: auto; margin-right: auto; width: 25%;}
+        .column {float: left; width: 33.33%; padding: 5px;}
+        .row::after {content: ""; clear: both; display: table;}
+        .right {position: absolute; top: 25; left: 25;}
+        .dark-mode {background-color: black; color: white; }
+        section {text-align: center;}
+    </style>
+    <head>
+        <title> Video Jogos </title>
+    </head>
+    <body>
+        <nav>
+            <a href="./index.html">Introdução</a>
+            <a href="./futebol.html">Futebol</a>
+            <a href="./movies.html">Filmes</a>
+        </nav>
+        <h1> Video Jogos </h1>
+        <p>
+            Neste tópico vou falar de vídeo jogos onde ainda gosto até aos dias de hoje, por isso vou enumerar os meus 3 jogos favoritos.
+        </p>
+        <section>
+            <h2> 3 - Overwatch 2 </h2>
+            <p>
+                Este jogo, resumidamente, é um first shooter jogo do companhia Blizzard Entertainment. O jogo é composto por 2 equipas de 5 jogadores em cada equipa, 
+                o objetivo do jogo diferencia em cada tipo de mapa que é jogado, existem 4 tipos de mapas, KOTH (King of the hill), escort, hybrid e o novo gamemode para substituir o que foi removido 
+                do jogo 2CP, Push. O jogo também é dividido em 3 classes Tank, DPS, Support; o que gosto de jogar mais é support e o meu heróis favorito é Ana e Baptiste.
+            </p>
+            <div class="row">
+                <div class="colum">
+                <img src="images/overwatch.png.jpg" alt="Overwatch1" style="width: 25%;">
+                <img src="images/1600_Ana.png" alt="Ana" style="width: 25%;">
+                </div> 
+            </div>
+        </section>
+        <section>
+            <h3> 2 - Elden Ring </h3>
+            <p>
+                Este jogo, resumidamente, é um jogo de ação de RPG desenvolvido pela FromSoftware e publicado pela Bandai Namco Enterteinement, com direção de Hidetaka Miyazaki. O jogo é increvelmemte versátil com um boa história 
+                e neste jogo para além de ser díficil e bastante empolgante de jogar pode-se fazer várias classes e várias maneiras de jogar este jogo. Sendo uma das minhas maneiras favoritas de jogar este jogo é fazer Speedruns.
+            </p>
+            <div>
+                <img src="images/0b0owDFqekJszSOQfD4vvTjy.png" alt="EldenRing1" class="center">
+            </div>
+        </section>
+        <section>
+            <h4> 1 - God of War: Ragnarok </h4>
+            <p>
+                Este é o meu jogo favorito, é um jogo de ação/aventura desenvolvido por Santa Monica Studio, e publicado pela Sony Interactive Entertainement. 
+                Na minha opinião, um dos poucos jogos onde a história é bem sólida, consistente, e muito boa, em termos de jogabilidade também é bastante boa, basicamente este jogo é muito bom.
+                E como este era um seguimento do primeiro God Of War era para ser melhor que o último e nisso eles conseguiram bem.
+            </p>
+            <div class="row">
+                <div class="colum">
+                <img src="images/4xJ8XB3bi888QTLZYdl7Oi0s.png" alt="Overwatch1" style="width: 25%;">
+                <img src="images/p3pYq0QxntZQREXRVdAzmn1w.png" alt="Ana" style="width: 25%;">
+                </div> 
+            </div>
+        </section>
+
+        <div class="right">
+            <button onclick="myFunction()">Dark mode</button>
+        </div>
+
+        <script>
+            function myFunction() {
+                var element = document.body;
+                element.classList.toggle("dark-mode");}
+        </script>
+    </body>
+</htm>

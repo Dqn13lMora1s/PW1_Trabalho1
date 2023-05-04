@@ -1,0 +1,13 @@
+.principal {
+    width: 80vw;
+    height: 60vh;
+    position: relative;
+}
+
+.conteudo {
+    width: 50%;
+    height: 50%;
+    position: relative;
+    top: 25%;
+    left: 25%;
+}

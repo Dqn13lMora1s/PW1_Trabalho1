@@ -1,0 +1,79 @@
+## D - Unidades de medida
+<br>
+### Crie um ficheiro HTML com uma div de fundo vermelho que contenha outra div de fundo amarelo, esta segunda div deve conter um paragrafo
+
+```
+<body>
+    <div class="principal">
+        <div class="conteudo">
+            <p>Este parágrafo está dentro de uma segunda div de fundo amarelo.</p>
+        </div>
+    </div>
+</body>
+
+```
+<style>
+    .red-bg {
+        background-color: red;
+        padding: 20px;
+    }
+
+    .yellow-bg {
+        background-color: yellow;
+        padding: 10px;
+    }
+</style>
+
+### 21. Altere o tamanho do texto de um paragrafo.
+
+<!-- px (pixels, depende da resolução do monitor)  -->
+<br>
+
+p {
+    font-size: 16px;
+}
+<br>
+### 22. Altere o tamanho do texto de um paragrafo para o dobro do tamanho original, utilize a unidade de medida que acha mais adequada
+
+<!-- relativo á fonde original do elemento
+(2em = 2 * tamanho original da fonte) -->
+<br>
+```
+p {
+    font-size: 2em;
+}  
+```
+<br>
+### 23. Altere a largura da div principal para 80% do tamanho da janela e a altura para 60%
+
+<!--
+vw 1% da largura da janela do browser
+vh 1% da altura da janela do browser
+-->
+<br>
+```
+p {
+    width: 80vw;
+    height: 60vh;
+}
+```
+<br>
+### 24. Altere a largura e altura da div conteudo para 50% do tamanho da div principal
+<br>
+
+.principal {
+    width: 80vw;
+    height: 60vh;
+    position: relative;
+}
+<br>
+.conteudo {
+    width: 50%;
+    height: 50%;
+    position: relative;
+    top: 25%;
+    left: 25%;
+}
+
+
+&nbsp;
